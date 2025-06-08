@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <footer class="bg-[#659B8C] text-white py-10 px-6">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start text-center md:text-left">
+
+        <!-- Intro -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-gray-900">Subscribe to our newsletter for updates.</h3>
+          <form class="flex flex-col sm:flex-row items-center sm:items-start gap-4">
+            <input
+              class="px-4 py-2 rounded-md text-black w-full sm:w-auto"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
+            <button
+              type="submit"
+              class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <!-- Links -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4 text-gray-900">Quick Link</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline text-white">Home</a></li>
+            <li><a href="#" class="hover:underline text-white">Who We Are</a></li>
+            <li><a href="#" class="hover:underline text-white">Our Philosophy</a></li>
+          </ul>
+        </div>
+
+        <!-- Tech -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4 text-gray-900">Technologies</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline text-white">HTML</a></li>
+            <li><a href="#" class="hover:underline text-white">CSS</a></li>
+            <li><a href="#" class="hover:underline text-white">JavaScript</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="border-t border-orange-300 my-10 w-full"></div>
+
+      <!-- Footer Branding -->
+        <div class="text-center">
+        <span class="tracking-widest text-xl font-light">
+            <span class="text-white">CODE</span>
+            <span class="text-orange-300 font-semibold">SP▲CE</span>
+        </span>
+        </div>
+    </footer>
+  </body>
+</html>
